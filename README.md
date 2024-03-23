@@ -24,12 +24,12 @@ Work out the cost of for all the rolls
 Add an ‘add to basket’ method/class.
 
 Calculations/important information:
- Topsoil bag cost: £72 (inc VAT)
- Bag quantity calculation:
-◦ metres squared * 0.025 = X
-◦ X * 1.4 = Y
-◦ Round Y up to the nearest 1 = your number of bags
-◦ Example: 110 * 0.025 = 2.75 * 1.4 = 3.85 = 4 Bags of Top Soil
+◦ Topsoil bag cost: £72 (inc VAT)<br />
+◦ Bag quantity calculation:<br />
+◦ metres squared * 0.025 = X<br />
+◦ X * 1.4 = Y<br />
+◦ Round Y up to the nearest 1 = your number of bags<br />
+◦ Example: 110 * 0.025 = 2.75 * 1.4 = 3.85 = 4 Bags of Top Soil<br />
 
 ### Installation Guide
 Run command: git clone https://github.com/SumAnna/freetimers.git<br />
