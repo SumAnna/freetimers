@@ -33,6 +33,7 @@ Calculations/important information:
 
 ### Installation Guide
 Run command: git clone https://github.com/SumAnna/freetimers.git<br />
+Run command: cd freetimers
 Run command: composer install<br />
 Run freetimers.sql script in your database client or use command line.<br />
 Copy .env.example file to your .env file and set the correct values for your DB.<br />
