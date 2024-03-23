@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         try {
-            $calculation->setDimensions((int) $_POST['width'], (int) $_POST['length'], (int) $_POST['depth']);
+            $calculation->setDimensions((float) $_POST['width'], (float) $_POST['length'], (float) $_POST['depth']);
             $calculation->saveCalculation();
             $result['bags'][] = $calculation->getBagsNumber();
             $result['price'][] = $calculation->getBagsPrice();

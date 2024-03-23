@@ -234,7 +234,7 @@ class Calculation
      */
     public function getBagsNumber(): int
     {
-        return ceil($this->getDepth() * ($this->getWidth() * $this->getLength() * 0.025));
+        return round($this->getDepth() * ($this->getWidth() * $this->getLength() * 0.025));
     }
 
     /**
