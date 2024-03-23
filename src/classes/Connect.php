@@ -229,7 +229,7 @@ class Connect
 
         foreach ($params as $key => $param) {
             $where .= (empty($where) ? ' WHERE ' : ' AND ') .
-                $key . ' = ' . $key;
+                $key . ' = :' . $key;
         }
 
         return !(false === $this->buildQuery(
