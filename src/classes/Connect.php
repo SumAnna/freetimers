@@ -46,7 +46,7 @@ class Connect
      */
     private static function loadConfig()
     {
-        $env = Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+        $env = Dotenv::createImmutable(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..');
         $env->load();
     }
 
